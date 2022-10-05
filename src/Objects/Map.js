@@ -8,7 +8,7 @@ const Map = props => {
     const [data, setData] = useState([])
 
     const requestFunction = async () => {
-        const data = await fetch(`http://127.0.0.1:8000/api`)
+        const data = await fetch(`https://intense-shelf-99398.herokuapp.com/api`)
         const parsed_data = await data.json()
         console.log(parsed_data)
         setData(parsed_data)
