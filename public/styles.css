@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html, body, #root{
+    height: 100%;
+    width: 100%;
+}
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.leaflet-container{
+    height: 88%;
+}
+.general_btn{
+    transition: all .3s;
+}
+.general_btn:hover{
+    transform: scale(1.03);
+    filter: brightness(90%);
+}
+.form{
+    display: none;
+}
