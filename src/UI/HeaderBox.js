@@ -5,5 +5,6 @@ const HeaderBox = props => {
                 <p>{props.color}</p>
         </div>
     )
+    //random
 }
 export default HeaderBox
