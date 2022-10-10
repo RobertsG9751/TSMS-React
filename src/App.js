@@ -31,7 +31,7 @@ function App() {
       <div className="App center-flex">
         <div className="box-map">
           <Header></Header>
-          <Legend></Legend>
+          {/* <Legend></Legend> */}
           <NewObj></NewObj>
           <Map upCall={upCall}></Map>
         </div>

@@ -3,9 +3,8 @@
     border: none;
     background-color: #588157;
     font-weight: bold;
-    height: 70%;
-    width: 25vmin;
     transition: all .2s;
     cursor: pointer;
-    font-size: 125%;
+    padding: 10px 25px;
+    transform: scale(1.3);
 }

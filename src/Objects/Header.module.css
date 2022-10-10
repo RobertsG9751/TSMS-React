@@ -1,6 +1,6 @@
 .box{
-    height: 7%;
+    height: 8%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-around;
 }
