@@ -27,3 +27,8 @@ html, body, #root{
 .form{
     display: none;
 }
+@media only screen and (max-width: 700px) {
+    .addBtn {
+      display: none;
+    }
+  }
