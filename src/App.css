@@ -5,7 +5,7 @@
 }
 .box-map{
   height: 90vh;
-  width: 80vmax;
+  width: 100%;
   background-color: #dad7cd;
   box-shadow: 3px 3px 3px;
 }
