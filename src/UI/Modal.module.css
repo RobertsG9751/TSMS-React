@@ -35,7 +35,7 @@
     margin: 5px 5px;
     font-size: 150%;
     font-weight: bold;
-    background-color: #d62828;
+    background: linear-gradient(45deg, rgba(220,81,22,1) 0%, rgba(207,112,89,1) 100%);
     transition: all .2s;
 }
 .btn:hover{
