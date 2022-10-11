@@ -12,7 +12,7 @@ const ModalBox = props => {
                 Dati
             </div>
             <div className={style.dataBox}>
-                {
+                {//comment
                     props.data.map(el=>{
                         return(
                             <div key={el.units_serial_number}>
