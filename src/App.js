@@ -6,6 +6,7 @@ import Legend from './Objects/Legend'
 import Map from './Objects/Map'
 import NewObj from './Objects/NewObj';
 import Modal from './UI/Modal'
+import Options from './UI/Options';
 
 function App() {
 
@@ -30,11 +31,12 @@ function App() {
       }
       <div className="App center-flex">
         <div className="box-map">
-          <Header></Header>
+          {/* <Header></Header> */}
           {/* <Legend></Legend> */}
           <NewObj></NewObj>
           <Map upCall={upCall}></Map>
         </div>
+        <Options/>
       </div>
     </React.Fragment>
   );

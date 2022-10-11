@@ -15,7 +15,7 @@ const ModalBox = props => {
                 {
                     props.data.map(el=>{
                         return(
-                            <div>
+                            <div key={el.units_serial_number}>
                                 <div>
                                     Serijas numurs: {el.units_serial_number}
                                 </div>
@@ -28,9 +28,9 @@ const ModalBox = props => {
                                 <div>
                                     Tips: {el.part}
                                 </div>
-                                <date>
+                                <div>
                                     Garantija: {el.warranties_date}
-                                </date>
+                                </div>
                                 <div>
                                     Ražotajs: {el.manufacturer}
                                 </div>

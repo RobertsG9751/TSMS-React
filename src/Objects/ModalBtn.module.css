@@ -1,0 +1,21 @@
+.btn{
+    z-index: 1000;
+    /* background-color: #e76f51;*/
+    background: linear-gradient(45deg, rgba(220,81,22,1) 0%, rgba(207,112,89,1) 100%);
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 4vmin 4vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+    border: 1px solid grey;
+}
+.icon{
+    margin-top: 5px;
+    transform: scale(1.6);
+}

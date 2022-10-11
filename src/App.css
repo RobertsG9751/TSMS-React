@@ -2,6 +2,8 @@
   height: 100%;
   width: 100%;
   background-color: #344e41;
+  display: flex;
+  justify-content: flex-end;
 }
 .box-map{
   height: 90vh;

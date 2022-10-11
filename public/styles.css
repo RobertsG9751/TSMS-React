@@ -16,7 +16,9 @@ html, body, #root{
     justify-content: center;
   }
 .leaflet-container{
-    height: 92%;
+    height: 100%;
+    z-index: 5;
+    position: relative;
 }
 .general_btn{
     transition: all .3s;

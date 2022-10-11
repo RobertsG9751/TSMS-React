@@ -3,6 +3,7 @@ import 'leaflet/dist/leaflet.css';
 import * as Colors from '../Data/Colors' 
 import React, { useEffect, useState } from 'react';
 import style from './Map.module.css'
+import ModalBtn from './ModalBtn'
 
 const Map = props => {
 
@@ -51,6 +52,7 @@ const Map = props => {
                     )
                 })
             }
+            <ModalBtn/>
         </MapContainer>
     )
 }
