@@ -6,8 +6,13 @@
   justify-content: flex-end;
 }
 .box-map{
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   background-color: #dad7cd;
   box-shadow: 3px 3px 3px;
+}
+@media only screen and (max-width: 600px) {
+  .box-map{
+    height: 90vh;
+  }
 }
