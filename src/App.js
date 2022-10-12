@@ -12,6 +12,7 @@ function App() {
 
   const [clicked, setClicked] = useState(false)
   const [objData, setObjData] = useState()
+  const [filterOptions, setFilterOptions] = useState([])
   const upCall = async props => {
     const data = await fetch(`https://limitless-fjord-34545.herokuapp.com/api/v1/units/${props.systems_id}`)
     let parsed_data = await data.json()
@@ -20,6 +21,10 @@ function App() {
   }
   const closeModal = props =>{
     setClicked(false)
+  }
+
+  const optionsUpFunc = props => {
+    setFilterOptions(props)
   }
 
   return (
@@ -34,9 +39,9 @@ function App() {
           {/* <Header></Header> */}
           {/* <Legend></Legend> */}
           <NewObj></NewObj>
-          <Map upCall={upCall}></Map>
+          <Map upCall={upCall} filterOptions={filterOptions}></Map>
         </div>
-        <Options/>
+        <Options upFunc={optionsUpFunc}/>
       </div>
     </React.Fragment>
   );

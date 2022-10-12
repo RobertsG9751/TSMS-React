@@ -4,7 +4,7 @@
     background-color: #4a7c59;
     height: 100%;
     width: 100vmin;
-    transition: all 1s;
+    transition: all .5s;
     transform: translateX(100%);
     display: none;
 }
@@ -14,11 +14,11 @@
     left: 0;
     border: none;
     padding: 7px 20px;
-    margin: 5px 5px;
+    margin: 10px 10px;
     font-size: 150%;
     font-weight: bold;
     background: linear-gradient(45deg, rgba(220,81,22,1) 0%, rgba(207,112,89,1) 100%);
-    transition: all .2s;
+    transition: all .5s;
 }
 .btn:hover{
     filter: brightness(90%);
@@ -26,7 +26,20 @@
 .options{
     margin-top: 20px;
     margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .box_check{
-    margin-left: 20px;
+    margin-left: 30px;
+    width: 100%;
+}
+.box_check span{
+    font-weight: bold;
+    font-size: 125%;
+}
+.checkbox{
+    transform: scale(2);
+    margin: 15px 15px;
 }
