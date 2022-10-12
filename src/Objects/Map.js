@@ -10,7 +10,7 @@ const Map = props => {
     const [data, setData] = useState([])
 
     const requestFunction = async () => {
-        const data = await fetch(`https://limitless-fjord-34545.herokuapp.com/api/v1/systems`)
+        const data = await fetch(`https://lux-tsms.herokuapp.com/api/v1/systems`)
         const parsed_data = await data.json()
         setData(parsed_data)
     }
@@ -36,11 +36,11 @@ const Map = props => {
             />
             {
                 data.map(el=>{
-                    if(el.type==props.filterOptions[0] ||
-                    el.type==props.filterOptions[1] ||
-                    el.type==props.filterOptions[2] ||
-                    el.type==props.filterOptions[3] || 
-                    el.type==props.filterOptions[4]){
+                    if(el.type===props.filterOptions[0] ||
+                    el.type===props.filterOptions[1] ||
+                    el.type===props.filterOptions[2] ||
+                    el.type===props.filterOptions[3] || 
+                    el.type===props.filterOptions[4]){
                         return(
                             <Marker icon={assignColor(el)} key={el.systems_id} position={[el.systems_latitude,  el.systems_longitude]}>
                                 <Popup>
