@@ -24,6 +24,7 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
+
 }
 .btn{
     border-radius: 20px;
@@ -35,7 +36,7 @@
     margin: 5px 5px;
     font-size: 150%;
     font-weight: bold;
-    background: linear-gradient(45deg, rgba(220,81,22,1) 0%, rgba(207,112,89,1) 100%);
+    background: linear-gradient(45deg, rgba(90,24,154,1) 44%, rgba(102,42,130,1) 100%);
     transition: all .2s;
 }
 .btn:hover{
@@ -48,11 +49,13 @@
     margin-top: 20px;
 }
 .wrapper{
+    background-color: #212529;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 15px 15px;
-    box-shadow: 1px 1px 5px;
+    box-shadow: 3px 3px 10px #5a189a;
     height: 100%;
     max-height: 50%;
 }

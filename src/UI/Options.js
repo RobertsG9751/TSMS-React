@@ -50,7 +50,7 @@ const Options = props => {
                 </div>
                 <input onClick={filterFunc} className={style.btn} type="button" value="Filtrtēt"></input>
             </div>
-        //</div>
+        </div>
     )
 }
 export default Options

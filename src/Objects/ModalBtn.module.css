@@ -1,7 +1,7 @@
 .btn{
     z-index: 1000;
     /* background-color: #e76f51;*/
-    background: linear-gradient(45deg, rgba(220,81,22,1) 0%, rgba(207,112,89,1) 100%);
+    background: linear-gradient(45deg, rgba(90,24,154,1) 44%, rgba(102,42,130,1) 100%);
     border-radius: 50%;
     width: 75px;
     height: 75px;

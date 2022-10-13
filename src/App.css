@@ -1,7 +1,7 @@
 .App{
   height: 100%;
   width: 100%;
-  background-color: #344e41;
+  background-color: #212529;
   display: flex;
   justify-content: flex-end;
 }
@@ -9,7 +9,7 @@
   height: 90%;
   width: 100%;
   background-color: #dad7cd;
-  box-shadow: 3px 3px 3px;
+  box-shadow: 5px 0px 18px 10px #5a189a;
 }
 @media only screen and (max-width: 650px) {
   .box-map{
