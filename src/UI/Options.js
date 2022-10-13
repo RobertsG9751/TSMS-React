@@ -20,6 +20,7 @@ const Options = props => {
     }
     const filterFunc = el => {
         props.upFunc(filteredItems)
+        closeOptions();
     }
 
     return(

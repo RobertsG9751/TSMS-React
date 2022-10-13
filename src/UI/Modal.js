@@ -15,7 +15,7 @@ const ModalBox = props => {
                 {//comment
                     props.data.map(el=>{
                         return(
-                            <div key={el.units_serial_number}>
+                            <div className={style.wrapper} key={el.units_serial_number}>
                                 <div>
                                     Serijas numurs: {el.units_serial_number}
                                 </div>
