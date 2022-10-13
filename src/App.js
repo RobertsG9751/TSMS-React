@@ -8,7 +8,7 @@ import Options from './UI/Options';
 
 function App() {
 
-  const [clicked, setClicked] = useState(false)
+  const [dataClicked, setClicked] = useState(false)
   const [objData, setObjData] = useState()
   const [filterOptions, setFilterOptions] = useState([])
   const upCall = async props => {
@@ -28,7 +28,7 @@ function App() {
   return (
     <React.Fragment>
       {
-        clicked && (
+        dataClicked && (
           <Modal data={objData} closeFunction={closeModal}/>
         )
       }

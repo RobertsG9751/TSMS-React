@@ -24,7 +24,7 @@ const Options = props => {
     }
 
     return(
-        <div id="options" className={`${style.box}`}>
+         <div id="options" className={`${style.box}`}>
             <button className={style.btn} onClick={closeOptions}>Close</button>
             <div className={style.options}>
                 <h2>Filtrēt:</h2>
@@ -50,7 +50,7 @@ const Options = props => {
                 </div>
                 <input onClick={filterFunc} className={style.btn} type="button" value="Filtrtēt"></input>
             </div>
-        </div>
+        //</div>
     )
 }
 export default Options
